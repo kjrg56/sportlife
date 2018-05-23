@@ -17,7 +17,7 @@ $(document).ready(function() {
             }
 
             if(!$(this).hasClass('animation-complete')) {
-                if(windowScrollPosBottom > objectOffsetTop+150) {
+                if(windowScrollPosBottom > objectOffsetTop+100) {
 
                     $(this).addClass('animated');
 
